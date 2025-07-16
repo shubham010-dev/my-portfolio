@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+    />
+</head>
+<body class="bg-gray-50 text-gray-800">
+
+  <!-- Header / Navbar -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <nav class="container mx-auto flex justify-between items-center p-4">
+      <div class="text-2xl font-bold text-blue-600">MyPortfolio</div>
+      <div class="space-x-4">
+        <a href="#home" class="hover:text-blue-600">Home</a>
+        <a href="#about" class="hover:text-blue-600">About</a>
+        <a href="#projects" class="hover:text-blue-600">Projects</a>
+        <a href="#contact" class="hover:text-blue-600">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="min-h-screen flex flex-col justify-center items-center text-center p-6">
+    <img src="images/IMG_3426.JPG" alt="photo" class="w-32 h-32 rounded-full mb-4 shadow-lg"/>
+    <h1 class="text-4xl font-bold mb-2">Hi, I'm Shubham </h1>
+    <p class="text-xl mb-4">Web Developer & Designer</p>
+    <p class="italic mb-6">"Crack the Code, Change the World."</p>
+    <a href="#" class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition">Download Resume</a>
+  </section>
+
+  <!-- About Me Section -->
+  <section id="about" class="container mx-auto my-16 p-6 scroll-mt-20">
+    <h2 class="text-3xl font-bold text-center mb-8">About Me</h2>
+    <div class="grid md:grid-cols-2 gap-8">
+      <div>
+        <p class="mb-4">I am a passionate developer with a strong background in front-end technologies. I enjoy building responsive and user-friendly web applications.</p>
+        <p>My goal is to keep learning and contribute to impactful projects.</p>
+      </div>
+      <div>
+        <h3 class="text-xl font-semibold mb-2">Skills:</h3>
+        <ul class="list-disc list-inside">
+          <li>HTML</li>
+          <li>CSS & Tailwind CSS</li>
+          <li>JavaScript</li>
+        </ul>
+        <h3 class="text-xl font-semibold mt-4 mb-2">Education & Experience:</h3>
+        <ul class="space-y-2">
+          <li class="bg-gray-100 p-4 rounded-lg">High School (2020)- Alchemist Academy,Khatima</li>
+          <li class="bg-gray-100 p-4 rounded-lg">Higher Secondary School (2022)- Dynasty Modern Gurukul Academy, Chinki Farm</li>
+          <li class="bg-gray-100 p-4 rounded-lg">B.Tech Computer Science Engineering (2026)- Graphic Era Hill University,Dehradun</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="bg-white py-16 scroll-mt-20">
+    <div class="container mx-auto p-6">
+      <h2 class="text-3xl font-bold text-center mb-8">My Projects</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-gray-100 p-4 rounded-lg shadow-lg hover:scale-105 hover:shadow-xl transition transform duration-500">
+          <img src="images/project1.png" alt="Project 1" class="rounded mb-4" />
+          <h3 class="text-xl font-semibold mb-2">Project One</h3>
+          <p class="mb-2">A web app to manage tasks built using HTML, CSS, JS.</p>
+          <a href="#" class="text-blue-600 hover:underline">GitHub Repo</a>
+        </div>
+        <div class="bg-gray-100 p-4 rounded-lg shadow-lg hover:scale-105 hover:shadow-xl transition transform duration-500">
+          <img src="images/project2.png" alt="Project 2" class="rounded mb-4" />
+          <h3 class="text-xl font-semibold mb-2">Project Two</h3>
+          <p class="mb-2">Portfolio site showcasing skills and projects using Tailwind CSS.</p>
+          <a href="#" class="text-blue-600 hover:underline">GitHub Repo</a>
+        </div>
+        <div class="bg-gray-100 p-4 rounded-lg shadow-lg hover:scale-105 hover:shadow-xl transition transform duration-500">
+          <img src="images/project3.png" alt="Project 3" class="rounded mb-4" />
+          <h3 class="text-xl font-semibold mb-2">Project Three</h3>
+          <p class="mb-2">A simple calculator app with beautiful UI.</p>
+          <a href="#" class="text-blue-600 hover:underline">GitHub Repo</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container mx-auto my-16 p-6 scroll-mt-20">
+    <h2 class="text-3xl font-bold text-center mb-8">Contact Me</h2>
+    <form class="max-w-xl mx-auto space-y-4">
+      <input type="text" placeholder="Name" class="w-full p-3 border rounded focus:outline-none focus:ring-2 focus:ring-blue-600"/>
+      <input type="email" placeholder="Email" class="w-full p-3 border rounded focus:outline-none focus:ring-2 focus:ring-blue-600"/>
+      <textarea placeholder="Message" rows="5" class="w-full p-3 border rounded focus:outline-none focus:ring-2 focus:ring-blue-600"></textarea>
+      <button type="submit" class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition">Submit</button>
+    </form>
+    <div class="flex justify-center mt-6 space-x-4">
+      <a href="#" class="text-blue-600 hover:text-blue-800">GitHub</a>
+      <a href="#" class="text-blue-600 hover:text-blue-800">LinkedIn</a>
+    </div>
+  </section>
+
+  <footer class="bg-white text-center py-6 mt-12 shadow-inner">
+    &copy; 2025 Shubham Singh Bora. All rights reserved.
+  </footer>
+
+</body>
+</html>
