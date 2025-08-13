@@ -12,3 +12,6 @@ This is my personal portfolio website built using HTML and Tailwind CSS.
 Just open `index.html` in your browser.
 
 ---
+**Note** : This is not a complete portfolio i am still working on it
+
+---
