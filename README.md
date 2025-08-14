@@ -10,6 +10,8 @@ This is my personal portfolio website built using HTML and Tailwind CSS.
 
 ## How to run
 Just open `index.html` in your browser.
+
+---
 **OR**
 run **https://shubham010-dev.github.io/my-portfolio/** in any browser it is deployed using GitHub Pages.
 
